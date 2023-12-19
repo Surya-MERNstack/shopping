@@ -4,10 +4,10 @@ import Popular from '../components/Popular/Popular'
 import Offer from '../components/Offers/Offer'
 import NewCollections from '../components/NewCollections/NewCollections'
 import NewsLetter from '../components/NewsLetter/NewsLetter'
-
+import './CSS/Shop.css'
 const Shop = () => {
   return (
-    <div>
+    <div className='root'>
       <Hero/>
       <Popular/>
       <Offer/>

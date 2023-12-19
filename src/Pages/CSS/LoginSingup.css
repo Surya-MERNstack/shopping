@@ -1,16 +1,18 @@
 .loginsingup{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: #fce3fe;
     padding-top: 100px;
 }
 
 .loginsingup-container{
     width: 580px;
-    height : 600px;
+    height : 690px;
     background-color: white;
     margin: auto;
+    border-radius: 4rem;
     padding: 40px 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .loginsingup-container h1{
@@ -35,7 +37,7 @@
 }
 
 .loginsingup-container button {
-    width: 580px;
+    width: 480px;
     height: 72px;
     color: white;
     background: #ff4141;
@@ -67,3 +69,46 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 848px) {
+    .loginsingup{
+     width: 100%;
+    }
+  }
+  
+  @media (max-width: 686px) {
+    .loginsingup{
+     
+    }
+  }
+  
+  @media (max-width: 977px) {
+    .loginsingup {
+        width: 72rem;
+      height: 56rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .loginsingup {
+        height: 55rem;
+    }
+
+  }
+  
+  @media (max-width: 320px) {
+    .relatedproduct {
+      
+    }
+  }
+  

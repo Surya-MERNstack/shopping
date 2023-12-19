@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    height: 100vh;
+    margin-top: -3rem;
 }
 
 .relatedproduct h1{
@@ -21,7 +22,70 @@
 }
 
 .relatedproduct-item{
-   margin-top: 50px;
+   margin-top: 1rem;
    display: flex;
    gap: 30px;
+   margin-left: auto;
 }
+
+
+
+
+
+@media (max-width: 848px) {
+    .relatedproduct{
+     text-align: center;
+    }
+  }
+  
+  @media (max-width: 686px) {
+    .relatedproduct{
+      display: block;
+      margin-left: -14rem;
+    }
+  }
+  
+  @media (max-width: 977px) {
+    .relatedproduct {
+      width: 100%;
+      margin-left: 10rem;
+      height: 800px;
+    }
+
+    .carsoul{
+      margin-left: 5rem;
+      width: 100%;
+    }
+
+
+    .car_1{
+      margin-top: -6rem;
+    }
+  
+  }
+  
+  @media (max-width: 576px) {
+    .relatedproduct {
+      width: 100%;
+      height: 900px;
+      margin-left: 15rem;
+    }
+
+    
+    .carsoul{
+      margin-left: 10rem;
+      width: 100%;
+    }
+
+    .car_1{
+      margin-left: 10.2rem;
+      margin-top: -6rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .relatedproduct {
+      
+    }
+  }
+  

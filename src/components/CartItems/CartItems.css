@@ -115,3 +115,51 @@
     border: none;
     outline: none;
 }
+
+
+
+
+
+
+@media (max-width: 848px) {
+    .cartitems {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 686px) {
+    .cartitems {
+      width: 100%;
+      flex-direction: column;
+      margin-top: 16rem;
+    }
+  }
+  
+  @media (max-width: 977px) {
+    .cartitems {
+      width: 100%;
+      display: flex;
+    }
+
+ 
+  }
+  
+  @media (max-width: 576px) {
+    .cartitems {
+      display: flex;
+      width: 28rem;
+    }
+   
+  }
+  
+  
+  @media (max-width: 320px) {
+    .cartitems {
+      width: 72.2rem;
+      flex-direction: column;
+    }
+
+    
+   
+  }

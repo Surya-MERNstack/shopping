@@ -2,11 +2,13 @@
     display: block;
     margin: 30px auto;
     width: 82%;
+    flex-wrap: wrap;
 }
 
 
 .shopcategory-indexSort{
     display: flex;
+    flex-wrap: wrap;
     margin: 0px 170px;
     justify-content: space-between;
     align-items: center;

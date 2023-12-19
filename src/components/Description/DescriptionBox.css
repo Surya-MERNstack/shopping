@@ -33,3 +33,53 @@
   padding: 48px;
   padding-bottom: 70px;
 }
+
+
+
+
+
+@media (max-width: 848px) {
+  .decriptionbox-decription {
+    width: 100%;
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 686px) {
+  .decriptionbox-decription {
+    width: 100%;
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 977px) {
+  .decriptionbox-decription {
+    width: 60rem;
+    height: auto;
+    padding: 10px 20px;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .offers {
+    width: 72.2rem;
+    padding: 5px 10px;
+    flex-direction: column;
+  }
+ 
+}
+
+
+@media (max-width: 320px) {
+  .offers {
+    width: 72.2rem;
+    padding: 5px 10px;
+    flex-direction: column;
+  }
+
+  
+ 
+}
