@@ -1,13 +1,13 @@
 .loginsingup{
     width: 100%;
-    height: auto;
+    height: 680px;
     background: #fce3fe;
     padding-top: 100px;
 }
 
 .loginsingup-container{
-    width: 580px;
-    height : 690px;
+    width: 480px;
+    height : 570px;
     background-color: white;
     margin: auto;
     border-radius: 4rem;
@@ -37,7 +37,7 @@
 }
 
 .loginsingup-container button {
-    width: 480px;
+    width: 370px;
     height: 72px;
     color: white;
     background: #ff4141;
