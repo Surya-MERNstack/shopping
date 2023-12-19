@@ -52,7 +52,7 @@
     padding: 10px 20px;
     flex-direction: column;
   }
-}
+} 
 
 @media (max-width: 977px) {
   .decriptionbox-decription {
