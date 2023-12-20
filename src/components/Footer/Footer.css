@@ -83,14 +83,14 @@
       width: 100%;
       padding: 10px 20px;
       flex-direction: column;
-      margin-top: 16rem;
+      margin-top: 26rem;
+      height: 46rem;
     }
   }
   
   @media (max-width: 977px) {
     .footer {
       width: 72rem;
-      height: auto;
       margin-top: -5rem;
       padding: 10px 20px;
     }
@@ -101,7 +101,9 @@
     .footer {
       width: 72.2rem;
       padding: 5px 10px;
-      margin-top: 16rem;
+      margin-top: 16rem;      
+      height: 30rem;
+
       flex-direction: column;
     }
    

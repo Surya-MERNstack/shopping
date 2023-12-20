@@ -1,5 +1,6 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import all_product from '../components/Assets/all_product';
+import axios from 'axios';
 
 export const ShopContext = createContext(null);
 
@@ -54,6 +55,8 @@ const ShopContextProvider = (props) => {
        return totalItem
     }
 
+
+    
 
     const contextValue = {all_product, CartItem, addToCart, removeFromCart, getTotalCartAmount,getTotalCartItems};
 

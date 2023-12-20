@@ -41,8 +41,21 @@
     .popular {
       width: 100%;
       padding: 10px 20px;
+      margin-top: 10rem;
       flex-direction: column;
+      z-index: 1;
     }
+
+    .popular h1{
+      text-align: center;
+      color: white;
+      margin-left: 2rem;
+      font-size: 2.5rem;
+    }
+    
+  .carousel-container{
+    z-index: -1;
+  }
   }
   
   @media (max-width: 686px) {
@@ -52,19 +65,37 @@
       flex-direction: column;
       margin-left: auto;
     }
+   
   }
   
   @media (max-width: 977px) {
     .popular {
       width: 72rem;
-      padding: 10px 20px;
+      position: relative;
     }
+    .popular h1{
+      text-align: center;
+      color: rgb(7, 6, 6);
+      
+    }
+
+    .carousel-container{
+      margin-top: -10rem;
+      width: 30rem;
+      position: absolute; 
+      margin-left: 4rem;
+      border-radius: 3rem;
+    }
+    .done-car{
+      width: 100%;
+    }
+
+    
   }
   
   @media (max-width: 576px) {
     .popular {
       width: 72.2rem;
-      padding: 5px 10px;
       flex-direction: column;
     }
    
@@ -72,9 +103,9 @@
   
   
   @media (max-width: 320px) {
-    .hero {
+    .popular {
       width: 72.2rem;
-      padding: 5px 10px;
+      margin-top: -4rem;
       flex-direction: column;
     }
    

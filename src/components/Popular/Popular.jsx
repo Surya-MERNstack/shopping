@@ -59,10 +59,10 @@ const Popular = () => {
       <h1>POPULAR IN WOMEN</h1>
       <hr />
       <div className="carousel-container">
-        <Carousel controls={false} indicators={false} interval={2000}>
+        <Carousel controls={false} indicators={false} interval={2000} >
           {data_product.map((item, i) => (
-            <Carousel.Item key={i}>
-              <Item id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
+            <Carousel.Item key={i} >
+              <Item id={item.id}className='done-car' name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
             </Carousel.Item>
           ))}
         </Carousel>

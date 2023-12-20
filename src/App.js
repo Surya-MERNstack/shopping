@@ -12,6 +12,10 @@ import men_banner from './components/Assets/banner_mens.png'
 import women_banner from './components/Assets/banner_women.png'
 import kids_banner from './components/Assets/banner_kids.png'
 import Login from './Pages/Login'
+import LogOut from './Pages/Logout'
+import Profile from './Pages/Profile'
+import Register from './Pages/Register'
+import { ToastContainer } from 'react-toastify'
 
 
 const App = () => {
@@ -28,10 +32,13 @@ const App = () => {
       <Route path='/product/:productId' element = {<Product/>}/>
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/' index element={<Login/>}/>
+      <Route path="/register" element={<Register />} />
+        <Route path="/logout" element={<LogOut />} />
+        <Route path="/profile/:id" element={<Profile />} />
      </Routes>
      <Footer/>
      </BrowserRouter>
-      
+      <ToastContainer/>
     </>
   )
 }

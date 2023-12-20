@@ -1,0 +1,15 @@
+
+@media (max-width: 576px) {
+    .container_cad {
+      margin-left: 20rem;
+      width: 100%;
+    }
+
+  }
+  
+  @media (max-width: 320px) {
+    .container_cad {
+      background: red;
+      border: 3px solid red;
+    }
+  }
