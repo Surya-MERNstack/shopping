@@ -46,3 +46,20 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+
+@media (max-width: 576px) {
+    .shopcategory-banner {
+      width: 50rem;
+      margin-left: 7rem;
+    }
+   
+    .shopcategory-indexSort{
+      width: 10rem;
+      text-overflow: clip;
+    }
+
+    .item-prices{
+      text-align: start;
+    }
+  }
