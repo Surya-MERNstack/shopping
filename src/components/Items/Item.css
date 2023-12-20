@@ -95,13 +95,32 @@
       margin-left: -12rem;
     }
    
+    .item p{
+      width: 10rem;
+      text-overflow: clip;
+    }
+
+    .item-prices{
+      text-align: start;
+    }
   }
   
   
   @media (max-width: 320px) {
     .item {
-      width: 72.2rem;
-      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 28rem;
+      margin-left: -12rem;
+    }
+   
+    .item p{
+      width: 10rem;
+      text-overflow: clip;
+    }
+
+    .item-prices{
+      text-align: start;
     }
 
     

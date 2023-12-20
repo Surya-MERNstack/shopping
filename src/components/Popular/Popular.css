@@ -110,6 +110,11 @@
       flex-direction: column;
     }
    
+    .popular h1{
+      text-align: end;
+    }
+
+  
   }
   
   
