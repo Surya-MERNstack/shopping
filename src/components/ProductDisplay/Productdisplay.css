@@ -1,6 +1,6 @@
 .productdisplay {
   display: flex;
-  margin: 30px 170px;
+  margin: 30px 50px;
 }
 
 .productdisplay-left {
@@ -24,7 +24,7 @@
 }
 
 .productdisplay-right {
-  margin: 0px 70px;
+  margin-left: -56px;
   display: flex;
   flex-direction: column;
 }

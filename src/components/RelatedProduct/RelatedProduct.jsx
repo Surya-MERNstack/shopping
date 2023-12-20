@@ -40,7 +40,7 @@ const RelatedProduct = () => {
     <div className="relatedproduct">
       <h1>Related Product</h1>
       <hr />
-      <Carousel controls={false} indicators={false} className="carsoul">
+      <Carousel controls={false} indicators={false} className="carsoul" interval={2000}>
         {data_product.map((item, i) => {
           return (
             <Carousel.Item key={i} className="car_1">
